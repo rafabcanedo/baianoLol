@@ -5,20 +5,27 @@ import TypeWriterText from "../../components/TypeWriteText";
 import HomeAvatar from "../../components/HomeAvatar";
 import Carrosel from "../../components/Carrosel";
 
+import background from '../../assets/layout.png';
+import { CoinVertical } from "phosphor-react";
+
 function Home() {
  return(
-  <section className="home-section">
+  <section className="home-section" id="home">
+   <div style={{ 
+    backgroundImage: `url(${background})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: '30% 45%',
+    backgroundSize: 'cover',
+    }}>
    <div className="home-container">
-    
     <div className="box-home">
      <TypeWriterText />
     </div>
 
-    <div className="box-home">
-     <HomeAvatar />
-    </div>
+    
    </div>
-
+   </div>
+   
    <div className="cbolao-title">
      <h2>Baianalista</h2>  
    </div>
@@ -46,3 +53,9 @@ function Home() {
 }
 
 export default Home;
+
+/*
+<div className="box-home">
+     <HomeAvatar />
+    </div>
+*/
