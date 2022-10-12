@@ -31,7 +31,7 @@
 
 - Lato (corpo text)
 
-- Oswakd (corpo text)
+- Oswald (corpo text)
 
 body { font-family: "Alkalami", serif; }
 

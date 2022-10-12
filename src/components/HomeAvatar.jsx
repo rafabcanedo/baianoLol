@@ -4,8 +4,10 @@ import styled from 'styled-components';
 import Avatar from '../assets/TalkShow.png';
 
 const AvatarContainer = styled.div`
- width: 100%;
- image{
+ position: absolute;
+ right: 10%;
+ width: 510px;
+ img{
      width: 100%;
      height: auto;
  }

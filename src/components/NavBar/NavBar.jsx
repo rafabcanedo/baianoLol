@@ -3,15 +3,17 @@ import './NavBar.css';
 import { Link } from "react-router-dom";
 import { List, X } from "phosphor-react";
 
+import LogoNav from "../LogoNav";
+
 const NavBar = () => {
   
   const [ Mobile, setMobile ] = useState(false)
 
  return(
   <nav className="navbar-container">
-   <h3 className="logo-nav">
-    Logo
-   </h3>
+   <div className="logo-nav">
+    <LogoNav />
+   </div>
 
    <ul className={Mobile ? "nav-link-mobile" : "nav-links"} onClick={() => setMobile(false)}>
     
