@@ -2,7 +2,6 @@ import React from "react";
 import './Home.css';
 
 import TypeWriterText from "../../components/TypeWriteText";
-import HomeAvatar from "../../components/HomeAvatar";
 import Carrosel from "../../components/Carrosel";
 
 import background from '../../assets/layout.png';
@@ -22,7 +21,6 @@ function Home() {
      <TypeWriterText />
     </div>
 
-    
    </div>
    </div>
    

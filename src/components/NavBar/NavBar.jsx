@@ -25,8 +25,8 @@ const NavBar = () => {
     <li>Sobre</li>
     </Link>
 
-    <Link to='/projetos'>
-    <li>Projetos</li>
+    <Link to='/baianalista'>
+    <li>Baianalista</li>
     </Link>
 
     <Link to='/sociais'>

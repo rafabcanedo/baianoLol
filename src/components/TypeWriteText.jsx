@@ -5,7 +5,7 @@ const Title = styled.h2`
  font-size: 3em;
  transform: capitalize;
  width: 80%;
- color: var(--azul-dark);
+ color: var(--white);
  align-self: flex-start;
  span{
  text-transform: uppercase;
@@ -28,7 +28,7 @@ const SubTitle = styled.h3`
  font-family: "Oswald", sans-serif;
  font-size: 1.25em;
  text-transform: capitalize;
- color: var(--azul-dark);
+ color: var(--white);
  font-weight: 600;
  margin-bottom: 1rem;
  width: 80%;

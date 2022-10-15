@@ -10,8 +10,8 @@ import "swiper/css/effect-cards";
 import img1 from '../assets/baianalista1.png';
 import img2 from '../assets/baianalista2.jpg';
 import img3 from '../assets/baianalista3.jpg';
-import img4 from '../assets/baianalista4.jpg';
-import img5 from '../assets/baianalista5.jpg';
+import img4 from '../assets/baianalista4.png';
+import img5 from '../assets/baianalista5.png';
 
 const Container = styled.div`
  width: 25vw;
