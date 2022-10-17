@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import img1 from '../assets/baianochique.png';
+import img1 from '../assets/cyberbai.png';
 import img2 from '../assets/esabaianalista.png';
 import img3 from '../assets/jukesbaianalista.png';
-import img4 from '../assets/brucerbaianalista.png';
+import img4 from '../assets/brucerbaianalista.jpg';
 import img5 from '../assets/revoltabaianalista.png';
 import img6 from '../assets/minervabaianalista.png';
 
@@ -43,6 +43,9 @@ const Item = styled.div`
  color: var(--background);
  margin: 2rem 1rem;
  position: relative;
+
+ border: 2px solid var(--white);
+ border-radius: 20px;
 `;
 
 const ImageContainer = styled.div`
@@ -74,9 +77,9 @@ const Position = styled.h2`
  display: flex;
  align-items: center;
  justify-content: center;
- text-transform: uppercase;
+ text-transform: capitalize;
  color: var(--white);
- margin-top: 1rem;
+ font-weight: 400;
 `;
 
 const MemberComponent = ({img, name=" ",position=" "}) => {
@@ -94,14 +97,14 @@ const MemberComponent = ({img, name=" ",position=" "}) => {
 const Team = () => {
  return(
   <Section>
-    <Title>Team</Title>
+    <Title>Equipe</Title>
     <Container>
-     <MemberComponent img={img1} />
-     <MemberComponent img={img1} />
-     <MemberComponent img={img1} />
-     <MemberComponent img={img1} />
-     <MemberComponent img={img1} />
-     <MemberComponent img={img1} />
+     <MemberComponent img={img1} name="Baiano" position="Fundador" />
+     <MemberComponent img={img2} name="esA" position="Comentarista" />
+     <MemberComponent img={img3} name="Brucer" position="Convidado" />
+     <MemberComponent img={img4} name="Jukes" position="Convidado" />
+     <MemberComponent img={img5} name="Revolta" position="Convidado" />
+     <MemberComponent img={img6} name="Minerva" position="Convidado" />
     </Container>
   </Section>
  );

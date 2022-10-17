@@ -1,0 +1,147 @@
+.section-sobre {
+ min-height: 5em;
+ width: 100vw;
+ position: relative;
+ background-color: var(--azul-dark);
+}
+
+.section-mais {
+ min-height: 5em;
+ width: 100vw;
+ position: relative;
+ background-color: var(--background);
+ padding-top: 20px;
+}
+
+.sobre-title {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 1rem;
+ color: var(--white);
+ text-decoration: underline;
+}
+
+.container-sobre {
+ width: 75%;
+ min-height: 80vh;
+ margin: 0 auto;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.box-sobre {
+ width: 50%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.container-sobre2 {
+    width: 75%;
+    min-height: 80vh;
+    margin: 0 auto;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-intro-sobre {
+ font-size: 30px;
+ color: var(--white);
+}
+
+.span-sobre {
+ font-size: 25px;
+ color: var(--white);
+}
+
+.text-2-sobre {
+ font-size: 25px;
+ color: var(--black);
+}
+
+.inicio-comp {
+ font-size: 30px;
+}
+
+/*    CBOLAO    */
+
+.section-cbolao {
+ min-height: 5em;
+ width: 100vw;
+ position: relative;
+ background-color: var(--azul-dark);
+ padding-top: 20px;
+}
+
+.title-cbolao {
+ font-size: 3em;
+ text-transform: capitalize;
+ color: var(--white);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 1rem auto;
+ border-bottom: 2px solid var(--white);
+ width: fit-content;
+}
+
+.h1-cbolao {
+ font-size: 30px;
+ color: var(--white);
+}
+
+.h3-cbolao {
+ font-size: 20px;
+ color: var(--white);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.previa-cbolao {
+ position: relative;
+ margin: 0 auto;
+ width: 75%;
+ padding-right: 15px;
+ padding-left: 15px;
+ display: block;
+ justify-content: center;
+ padding-top: 30px;
+ line-height: 1.5;
+}
+
+.span-cbolao {
+ font-size: 25px;
+ color: var(--white);
+}
+
+.container-cbolao {
+ position: relative;
+ padding: 15px;
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+.gallery-wrapper {
+ overflow: auto;
+}
+
+.button-cbolao {
+ border: none;
+ color: white;
+ background-color: #4CAF50;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border-radius: 5px;
+ cursor: pointer;
+}

@@ -1,44 +1,75 @@
 import React, { useState } from "react";
-import './NavBar.css';
+import styled from 'styled-components';
 import { Link } from "react-router-dom";
 import { List, X } from "phosphor-react";
 
 import LogoNav from "../LogoNav";
 
-const NavBar = () => {
-  
-  const [ Mobile, setMobile ] = useState(false)
+const Section = styled.section`
+ width: 100vw;
+ background-color: var(--background);
+`;
 
+const Nav = styled.nav`
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+ width: 85%;
+ height: 5em;
+ margin: 0 auto;
+`;
+
+const Menu = styled.ul`
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ list-style: none;
+`;
+
+const MenuItem = styled.li`
+ margin: 0 1rem;
+ color: var(--azul-dark);
+ cursor: pointer;
+
+ &::after {
+  content: ' ';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: var(--azul-dark);
+  transition: width 0.3s ease;
+ }
+
+ &:hover::after {
+  width: 100%;
+ }
+`;
+
+const NavBar = () => {  
  return(
-  <nav className="navbar-container">
-   <div className="logo-nav">
-    <LogoNav />
-   </div>
+  <Section>
+    <Nav>
+     <LogoNav />
+     <Menu>      
+       <Link to="/">
+       <MenuItem>Home</MenuItem>
+       </Link>
 
-   <ul className={Mobile ? "nav-link-mobile" : "nav-links"} onClick={() => setMobile(false)}>
-    
-    <Link to='/'>
-    <li>Home</li>
-    </Link>
+       <Link to="/sobre">
+       <MenuItem>Sobre</MenuItem>
+       </Link>
 
-    <Link to='/sobre'>
-    <li>Sobre</li>
-    </Link>
+       <Link to="/baianalista">
+       <MenuItem>Baianalista</MenuItem>
+       </Link>
 
-    <Link to='/baianalista'>
-    <li>Baianalista</li>
-    </Link>
-
-    <Link to='/sociais'>
-    <li>Sociais</li>
-    </Link>
-
-   </ul>
-
-   <button className="mobile-menu-icon" onClick={() => setMobile(!Mobile)}>
-    {Mobile? <X size={32} color="#FFFFFF" /> : <List size={32} color="#FFFFFF" />}
-   </button>
-  </nav>
+       <Link to="/sociais">
+       <MenuItem>Sociais</MenuItem>
+       </Link>
+     </Menu>
+    </Nav>
+  </Section> 
  );
 }
 

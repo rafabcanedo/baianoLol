@@ -129,9 +129,9 @@ const Footer = () => {
      </Left>
       <MenuItems>
        <Item>Home</Item>
-       <Item>Aplicacoes</Item>
-       <Item>Sobre Nós</Item>
-       <Item>Login</Item>
+       <Item>Baianalista</Item>
+       <Item>Sobre</Item>
+       <Item>Sociais</Item>
       </MenuItems>
     </Container>
     <Bottom>
