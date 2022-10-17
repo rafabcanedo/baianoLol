@@ -29,8 +29,10 @@ const Menu = styled.ul`
 
 const MenuItem = styled.li`
  margin: 0 1rem;
+ font-size: 18px;
  color: var(--azul-dark);
  cursor: pointer;
+ font-family: "Sora", sans-serif;
 
  &::after {
   content: ' ';

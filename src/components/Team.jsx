@@ -50,15 +50,18 @@ const Item = styled.div`
 
 const ImageContainer = styled.div`
  width: 15rem;
- margin: 0 1rem;
- background-color: var(--amarelo);
+ height: 15rem;
+ //margin: 0 1rem;
 
  border-radius: 20px;
  cursor: pointer;
+ overflow: hidden;
 
  img {
   width: 100%;
   height: auto;
+  object-fit: cover;
+  margin-bottom: -3px;
  }
 `;
 

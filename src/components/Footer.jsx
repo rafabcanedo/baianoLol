@@ -67,12 +67,14 @@ const MenuItems = styled.ul`
 const Item = styled.li`
  width: fit-content;
  cursor: pointer;
+ font-family: "Sora", sans-serif;
+ 
  &::after {
     content: ' ';
     display: block;
     width: 0%;
     height: 2px;
-    background:  ${props => props.theme.text};
+    background: var(--azul-dark);
     transition: width 0.3s ease;
   }
   &:hover::after{

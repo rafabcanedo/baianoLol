@@ -1,18 +1,16 @@
 import React from "react";
 import './About.css';
 
+import CarroselCbolao from "../../components/CarroselCbolao";
+
 import HomeAvatar from "../../components/HomeAvatar";
-
 import PhotoSobre from "../../components/PhotoSobre";
+import TalkShow from "../../components/TalkShow";
 
-import eternosF from '../../assets/eternos.jpg';
-import excnb from '../../assets/EXNB.png';
-import loudinhos from '../../assets/loudinhos.png';
-import fullClear from '../../assets/fullclear.png';
-import politicagem from '../../assets/politicagem.png';
-import geracao2000 from '../../assets/geracao.png';
-import Kings from '../../assets/mill7.png';
-import batcaverna from '../../assets/batcaverna.png';
+import doacao from "../../assets/doacao.png";
+import times from "../../assets/times.png";
+import view from "../../assets/views.png";
+import trending from "../../assets/trending.png";
 
 function About() {
  return(
@@ -66,7 +64,7 @@ function About() {
     Finalizou o ensino médio com apenas 15 anos e logo teve que decidir a carreira que seguiria,
     Ao tentar entrar em uma faculdade federal, Baiano foi aprovado em três cursos e escolheu Engenharia Ambiental para iniciar seus estudos no ensino superior. 
     Infelizmente, ele percebeu que não era aquilo que gostaria de fazer e começou a entrar em um dilema.
-    Baiano jogou algumas competições menores de DotA na região em que vivia. <br />
+    Baiano jogou algumas competições menores de Dota na região em que vivia. <br />
     <br />
     Esses torneios ofereciam premiações pequenas,
     mas que o ajudavam a mostrar à família que o jogo poderia lhe dar algum dinheiro. 
@@ -89,8 +87,11 @@ function About() {
       <h3 className="h3-cbolao">
       O maior campeonato Brasileio de League Of Legends
       </h3>
+    
+      <br />
+      <br />
 
-     <div className="previa-cbolao">
+     <div className="previa-cbolao2">
       <span className="span-cbolao">
       Maior torneio amador de League of Legends do mundo, o CBOLÃO surgiu da ideia do streamer e ex-jogador <br />
       Gustavo "Baiano" Gomes de unir diversão, competitividade e inclusão no cenário de LOL brasileiro. 
@@ -102,22 +103,53 @@ function About() {
       </span>
      </div>
 
-     <div className="container-cbolao">
-     <button class="arrow-left control" aria-label="Previous image">◀</button>
-     <button class="arrow-right control" aria-label="Next Image">▶</button>
-      <div className="gallery-wrapper">
-       <div className="gallery">
-        <img src={eternosF} alt="" className="item-current"/>
-        <img src={excnb} alt="" className="item-current" />
-        <img src={loudinhos} alt="" className="item-current" />
-        <img src={fullClear} alt="" className="item-current" />
-        <img src={politicagem} alt="" className="item-current" />
-        <img src={geracao2000} alt="" className="item-current" />
-        <img src={Kings} alt="" className="item-current" />
-        <img src={batcaverna} alt="" className="item-current" />
+      <CarroselCbolao />
+
+      <div className="row-cbolao">
+       <div className="col-6 pt-3">
+       <p>
+         <img src={doacao} alt="" />
+       </p>
+       <p className="p-rows">
+         +250 MIL
+         <br />
+         EM DOAÇÕES
+       </p>
+       </div>
+
+       <div className="col-6 pt-3">
+       <p>
+        <img src={times} alt="" />
+       </p>
+       <p className="p-rows">
+       +1 MIL
+         <br />
+         TIMES INSCRITOS    
+       </p>
+       </div>
+
+       <div className="col-6 pt-3">
+       <p>
+       <img src={view} alt="" />
+       </p>
+       <p className="p-rows">
+         +193 MIL
+         <br />
+         PICO DE AUNDIÊNCIA
+       </p>
+       </div>
+
+       <div className="col-6 pt-3">
+       <p>
+       <img src={trending} alt="" />
+       </p>
+       <p className="p-rows">
+         #TRENDING TOPICS
+         <br />
+         EM TODAS AS EDIÇÕES
+       </p>
        </div>
       </div>
-     </div>
 
      <div className="container-button">
       <a href="https://cbolao.gg" target="_blank">
@@ -126,6 +158,51 @@ function About() {
       </button>
       </a>
      </div>
+    </section>
+
+    <section className="section-talkshow">
+    <div className="container-sobre2">
+   
+   <div className="box-sobre2">
+  <h2 className="inicio-comp">
+    Play Night
+  </h2>
+  <br />
+   <span className="text-2-sobre">
+    Baiano, em seu programa Play Night recebe convidados personalidades
+    do cenário de League Of Legends e convidados especiais que também
+    estão ligados á comunidade.
+    A primeira temporada do programa conta com 12 episódios, que serão feitos 
+    nos estúdios do grupo de entretenimento de esports BBL e transmitidos no canal do 
+    influenciador na Twitch.
+    <br />
+    <br />
+    O talk show é focado em conteúdos descontraídos, entrevistas e quadros especiais
+    tudo relacionado ao cenário.
+    Os episódios são ao vivos e o público pode participar de alguma forma. Caso perca 
+    algum episódio confira o Vod ou os Cortes abaixo.
+   </span>
+   </div>
+
+    <div className="box-sobre">
+     <TalkShow />
+   </div>
+   </div>
+   
+   
+   <div className="button-redes">
+   <a href="https://www.youtube.com/channel/UCtVc_PQ39arpgQBeXQRw4Cw/featured" target="_blank">
+   <button className="button-playtwitch">
+    Twitch
+   </button>
+   </a>
+
+   <a href="https://www.youtube.com/channel/UCtVc_PQ39arpgQBeXQRw4Cw/featured" target="_blank">
+   <button className="button-playtube">
+    Youtube
+   </button>
+   </a>
+   </div>
     </section>
    </>
  );

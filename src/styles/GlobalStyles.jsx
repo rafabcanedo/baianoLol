@@ -4,6 +4,7 @@ import "@fontsource/alkalami";
 import "@fontsource/lato";
 import "@fontsource/open-sans";
 import "@fontsource/oswald";
+import "@fontsource/sora";
 
 const GlobalStyles = createGlobalStyle`
  :root {
