@@ -23,13 +23,23 @@ grande entreterimento.
 
 O projeto basicamente é uma landing page(site informativo) sobre seus projetos como Baianalista, Cbolão e Baiburger.
 
+### Redes Sociais Baiano
+
+<div style="display: inline_block"><br />
+ <img align="center" alt="instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+
+ <img align="center" alt="twitch" src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" />
+
+  <img align="center" alt="twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+</div>
+
 ### Tecnologias
 <p display="inline-block">
- <img width="48" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.m.wikipedia.org%2Fwiki%2FFicheiro%3AReact-icon.svg&psig=AOvVaw1h-Ems7dmC6gUkT5z4mxHc&ust=1666143001900000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJj60L_Q6PoCFQAAAAAdAAAAABAE" />
+ <img width="48" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
  
- <img width="48" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogospng.org%2Flogo-html-5%2F&psig=AOvVaw0CuSVXu5IQuF7kDpYZ6k8c&ust=1666143080090000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKjl_OXQ6PoCFQAAAAAdAAAAABAD" />
+ <img width="48" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 
- <img width="48" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dcss%2BLogo&psig=AOvVaw3guHs-CqeyfP4Bs0wF7nc3&ust=1666143102330000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJCbo_DQ6PoCFQAAAAAdAAAAABAD" />
+ <img width="48" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
 
