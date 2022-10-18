@@ -7,10 +7,7 @@ import HomeAvatar from "../../components/HomeAvatar";
 import PhotoSobre from "../../components/PhotoSobre";
 import TalkShow from "../../components/TalkShow";
 
-import doacao from "../../assets/doacao.png";
-import times from "../../assets/times.png";
-import view from "../../assets/views.png";
-import trending from "../../assets/trending.png";
+import { TwitchLogo, YoutubeLogo } from "phosphor-react";
 
 function About() {
  return(
@@ -105,51 +102,6 @@ function About() {
 
       <CarroselCbolao />
 
-      <div className="row-cbolao">
-       <div className="col-6 pt-3">
-       <p>
-         <img src={doacao} alt="" />
-       </p>
-       <p className="p-rows">
-         +250 MIL
-         <br />
-         EM DOAÇÕES
-       </p>
-       </div>
-
-       <div className="col-6 pt-3">
-       <p>
-        <img src={times} alt="" />
-       </p>
-       <p className="p-rows">
-       +1 MIL
-         <br />
-         TIMES INSCRITOS    
-       </p>
-       </div>
-
-       <div className="col-6 pt-3">
-       <p>
-       <img src={view} alt="" />
-       </p>
-       <p className="p-rows">
-         +193 MIL
-         <br />
-         PICO DE AUNDIÊNCIA
-       </p>
-       </div>
-
-       <div className="col-6 pt-3">
-       <p>
-       <img src={trending} alt="" />
-       </p>
-       <p className="p-rows">
-         #TRENDING TOPICS
-         <br />
-         EM TODAS AS EDIÇÕES
-       </p>
-       </div>
-      </div>
 
      <div className="container-button">
       <a href="https://cbolao.gg" target="_blank">
@@ -161,48 +113,49 @@ function About() {
     </section>
 
     <section className="section-talkshow">
-    <div className="container-sobre2">
-   
-   <div className="box-sobre2">
-  <h2 className="inicio-comp">
-    Play Night
-  </h2>
-  <br />
-   <span className="text-2-sobre">
-    Baiano, em seu programa Play Night recebe convidados personalidades
-    do cenário de League Of Legends e convidados especiais que também
-    estão ligados á comunidade.
-    A primeira temporada do programa conta com 12 episódios, que serão feitos 
-    nos estúdios do grupo de entretenimento de esports BBL e transmitidos no canal do 
-    influenciador na Twitch.
-    <br />
-    <br />
-    O talk show é focado em conteúdos descontraídos, entrevistas e quadros especiais
-    tudo relacionado ao cenário.
-    Os episódios são ao vivos e o público pode participar de alguma forma. Caso perca 
-    algum episódio confira o Vod ou os Cortes abaixo.
-   </span>
-   </div>
+    <div className="container-talkshow">
 
-    <div className="box-sobre">
+     <div className="box-talkshow">
+     
+<h2 className="inicio-comp">
+Play Night
+</h2>
+<br />
+<span className="text-2-sobre">
+Baiano, em seu programa Play Night recebe convidados personalidades
+do cenário de League Of Legends e convidados especiais que também
+estão ligados á comunidade.
+A primeira temporada do programa conta com 12 episódios, que serão feitos 
+nos estúdios do grupo de entretenimento de esports BBL e transmitidos no canal do 
+influenciador na Twitch.
+<br />
+<br />
+O talk show é focado em conteúdos descontraídos, entrevistas e quadros especiais
+tudo relacionado ao cenário.
+Os episódios são ao vivos e o público pode participar de alguma forma. Caso perca 
+algum episódio confira o Vod ou os Cortes abaixo.
+</span>
+
+<div className="button-playnight">
+<a href="https://www.twitch.tv/baiano" target="_blank">
+<button className="button-playtwitch">
+<TwitchLogo size={32} />
+</button>
+</a>
+
+<a href="https://www.youtube.com/channel/UCtVc_PQ39arpgQBeXQRw4Cw/featured" target="_blank">
+<button className="button-playtube">
+<YoutubeLogo size={32} />
+</button>
+</a>
+</div>
+</div>
+<div>
+     </div> 
+     <div className="box-talkshow">
      <TalkShow />
-   </div>
-   </div>
-   
-   
-   <div className="button-redes">
-   <a href="https://www.youtube.com/channel/UCtVc_PQ39arpgQBeXQRw4Cw/featured" target="_blank">
-   <button className="button-playtwitch">
-    Twitch
-   </button>
-   </a>
-
-   <a href="https://www.youtube.com/channel/UCtVc_PQ39arpgQBeXQRw4Cw/featured" target="_blank">
-   <button className="button-playtube">
-    Youtube
-   </button>
-   </a>
-   </div>
+     </div>
+    </div>
     </section>
    </>
  );

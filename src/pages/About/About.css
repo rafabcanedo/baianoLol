@@ -73,11 +73,11 @@
 /*    CBOLAO    */
 
 .section-cbolao {
- min-height: 5em;
+ min-height: calc(100vh - 5em);
  width: 100vw;
  position: relative;
  background-color: var(--azul-dark);
- padding-top: 20px;
+ padding-top: 10px;
 }
 
 .title-cbolao {
@@ -156,13 +156,14 @@
  display: flex;
  justify-content: center;
  align-items: center;
- padding-top: 30px;
+ height: 210px;
+ //padding-top: 10px;
 }
 
 .button-cbolao {
  border: none;
  color: white;
- background-color: #00e8c0;
+ background-color: var(--amarelo);
  padding: 15px 32px;
  text-align: center;
  text-decoration: none;
@@ -175,29 +176,39 @@
 /*  TALK SHOW  */
 
 .section-talkshow {
- min-height: 5em;
+ min-height: calc(100vh - 5em);
  width: 100vw;
  position: relative;
  background-color: var(--background);
- padding-top: 20px;
+ padding-top: 50px;
 }
 
-.box-sobre2 {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   }
+.container-talkshow {
+ width: 75%;
+ mi-height: 80vh;
+ margin: 0 auto;
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 
-.button-redes {
-    display: flex;
-    justify-content: flex-start;
-    aling-items: flex-start;
-    position: relative;
-    left: 500px;
-    gap: 30px;
+.box-talkshow {
+ width: 50%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.button-playnight {
+ display: flex;
+ justify-content: flex-start;
+ align-items: flex-start;
+ position: relative;
+ padding-top: 30px;
+ gap: 30px;
 }
 
 .button-playtube {

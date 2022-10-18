@@ -7,6 +7,7 @@ const AvatarContainer = styled.div`
  position: absolute;
  right: 10%;
  width: 510px;
+ padding-top: 50px;
  img{
      width: 100%;
      height: auto;
