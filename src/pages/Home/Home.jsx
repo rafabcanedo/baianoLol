@@ -25,7 +25,7 @@ function Home() {
    </div>
    
    <div className="cbolao-title">
-     <h2>Baianalista</h2>  
+     <h1>Baianalista</h1>  
    </div>
    <div className="cbolao-container">
    <div className="box-home">

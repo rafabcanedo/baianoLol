@@ -24,10 +24,10 @@ function About() {
     </h2>
     <br />
     <span className="span-sobre">
-    Com foco principalmente em League Of Legends, ele se consilidou no cenário
+    Com foco principalmente em League Of Legends, ele se consolidou no cenário
     com craição de diversos projetos.
     O destaque fica para a ideialização do CBOLÃO, um torneio
-    que reuniu milhares de espectadores e angariou muitas doações para a 
+    que reuniu milhares de espectadores e juntou muitas doações para a 
     caridade.
     </span>
     </div>
@@ -46,12 +46,12 @@ function About() {
    
 
    <div className="box-sobre">
-  <h2 className="inicio-comp">
+  <h1 className="inicio-comp">
     Inicio Competitivo
-  </h2>
+  </h1>
   <br />
    <span className="text-2-sobre">
-    Antes de ser stremear, Baiano foi jogadior profissional
+    Antes de ser stremear, Baiano foi jogador profissional
     de League Of Legends e contou com uma tragetória de muita superação 
     durante toda sua carreira.
     Nascido no estado da Bahia,Baiano viveu uma boa parte de sua vida
@@ -65,9 +65,9 @@ function About() {
     <br />
     Esses torneios ofereciam premiações pequenas,
     mas que o ajudavam a mostrar à família que o jogo poderia lhe dar algum dinheiro. 
-    Porém, não demorou para perceber que o primeiro Dota não daria futuro e que havia outra opção 
+    Porém, não demorou para perceber que o primeiro campeonato Dota não daria futuro e que havia outra opção 
     ganhando a atenção no League of Legends. 
-    Ele realizou a transição para o título da Riot Games e, graças à experiência que possuía no DotA, 
+    Ele realizou a transição para o título da Riot Games e, graças à experiência que possuía no Dota, 
     aprendeu a jogar muito rápido e não teve dificuldades em se destacar nas filas ranqueadas.
    </span>
     </div>

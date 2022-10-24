@@ -23,8 +23,10 @@ const Title = styled.h1`
  justify-content: center;
  align-items: center;
  margin: 1rem auto;
- border-bottom: 2px solid var(--white);
+ //border-bottom: 2px solid var(--white);
  width: fit-content;
+ text-decoration: underline;
+ text-decoration-color: var(--amarelo);  
 `;
 
 const Container = styled.div`
@@ -104,8 +106,8 @@ const Team = () => {
     <Container>
      <MemberComponent img={img1} name="Baiano" position="Fundador" />
      <MemberComponent img={img2} name="esA" position="Comentarista" />
-     <MemberComponent img={img3} name="Brucer" position="Convidado" />
-     <MemberComponent img={img4} name="Jukes" position="Convidado" />
+     <MemberComponent img={img4} name="Brucer" position="Comentarista" />
+     <MemberComponent img={img3} name="Jukes" position="Convidado" />
      <MemberComponent img={img5} name="Revolta" position="Convidado" />
      <MemberComponent img={img6} name="Minerva" position="Convidado" />
     </Container>

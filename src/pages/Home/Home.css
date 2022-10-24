@@ -40,6 +40,11 @@
  font-size: 25px;
 }
 
+.cbolao-title h1 {
+  text-decoration: underline;
+  text-decoration-color: var(--amarelo);  
+}
+
 .cbolao-container {
  width: 75%;
  margin: 0 auto;

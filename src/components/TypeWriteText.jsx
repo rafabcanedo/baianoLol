@@ -9,7 +9,7 @@ const Title = styled.h2`
  align-self: flex-start;
  span{
  text-transform: uppercase;
- font-family: "Oswald", sans-serif;
+ //font-family: "Oswald", sans-serif;
  }
 
  @media (max-width: 70em) {
@@ -27,7 +27,7 @@ const Title = styled.h2`
 const SubTitle = styled.h3`
  font-family: "Oswald", sans-serif;
  font-size: 1.25em;
- text-transform: capitalize;
+ //text-transform: capitalize;
  color: var(--white);
  font-weight: 600;
  margin-bottom: 1rem;
@@ -50,7 +50,7 @@ const TypeWriterText = () => {
     </Title>
     <br />
       <SubTitle>
-      Pro Player de Lol por mais de 5 anos, primeiro jogador brasileiro
+      Pro Player de League Of Legends por mais de 5 anos, primeiro jogador brasileiro
       a jogar fora do país. Desenvolvi o melhor campeonato de lol do mundo,
       o Cebolão e o projeto Baianalista trazendo alegria e diversão a voces!
       </SubTitle>
